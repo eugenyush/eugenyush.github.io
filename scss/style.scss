@@ -169,7 +169,7 @@ body {
     
     .container{    
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
 
         @media (max-width: $screen-sm-max){
             flex-direction: column;
@@ -193,13 +193,17 @@ body {
         a{
             text-decoration: none;
 
-            :hover{
+            &:hover{
 
                 color: rgb(233, 120, 28);
             }
         }
     }
-
+    &_photo{
+        img{
+            border: 2px solid rgb(153, 151, 151);
+        }
+    }
     @media (max-width: $screen-sm-max){
         &-B{
             margin-top: 30px;
@@ -209,11 +213,14 @@ body {
                 width: 300px;
                 height: 150px;
             }
-            
         }
     }
 
        @media (min-width: $screen-md){
+        &-B,
+        &-D{
+            margin-left: 200px;
+        }
         &-A,
         &-C{
             margin-right: 30px;
@@ -227,6 +234,10 @@ body {
 
             
         }
+.project{
+    max-width: 400px;
+    margin-bottom: 20px;
+}
 
 }
 
