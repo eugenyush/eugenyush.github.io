@@ -203,7 +203,7 @@ body {
     @media (max-width: $screen-sm-max){
         &_photo{
             img{
-                width: 350px;
+                width: 300px;
 
             }
         }
@@ -214,10 +214,7 @@ body {
             img{
                 width: 400px;
              
-            }
-
-
-            
+            }          
         }
 .project{
     max-width: 500px;
@@ -225,6 +222,11 @@ body {
     margin-bottom: 20px;
     background-color: #F3F3F3;
     border-radius: 10px;
+
+    @media (max-width: $screen-sm-max){
+        padding: 25px;
+    }
+
 }
 
 }
