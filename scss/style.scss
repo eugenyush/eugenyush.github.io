@@ -203,7 +203,7 @@ body {
     @media (max-width: $screen-sm-max){
         &_photo{
             img{
-                width: 300px;
+                width: 250px;
 
             }
         }
@@ -225,6 +225,7 @@ body {
 
     @media (max-width: $screen-sm-max){
         padding: 25px;
+        max-width: 300px;
     }
 
 }

@@ -406,7 +406,7 @@ body {
         color: #e9781c; }
   @media (max-width: 767px) {
     .section-project_photo img {
-      width: 300px; } }
+      width: 250px; } }
   @media (min-width: 768px) {
     .section-project img {
       width: 400px; } }
@@ -418,7 +418,8 @@ body {
     border-radius: 10px; }
     @media (max-width: 767px) {
       .section-project .project {
-        padding: 25px; } }
+        padding: 25px;
+        max-width: 300px; } }
 
 .section-footer {
   padding-top: 250px;
